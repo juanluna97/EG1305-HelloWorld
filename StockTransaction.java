@@ -10,7 +10,7 @@ public class StockTransaction {
 		double MoneyPaid = 1000 * 32.87;
 		final double COMISSION_RATE = 0.02;
 		double MoneyReceived = 1000 * 33.92;
-		double Profit = (MoneyPaid - (((MoneyReceived*COMISSION_RATE))+(MoneyPaid*COMISSION_RATE)+MoneyPaid));
+		double Profit = (MoneyReceived - (((MoneyReceived*COMISSION_RATE))+(MoneyPaid*COMISSION_RATE)+MoneyPaid));
 		System.out.println("The amount of money Joe paid was $" + MoneyPaid);
 		System.out.println("The amount of money the stockbroker received was $" + (COMISSION_RATE * MoneyPaid));
 		System.out.println("The amount of money Joe received after selling his stock was $" + MoneyReceived);
