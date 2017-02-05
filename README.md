@@ -1,2 +1,2 @@
-# HelloWorld
-First Assignment
+# WeeklyAssignments
+Each weekly assignment is uploaded here
