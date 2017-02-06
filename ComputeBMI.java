@@ -7,6 +7,7 @@
  * calculate the BMI.*/
 
 import javax.swing.JOptionPane;
+
 public class ComputeBMI {
 	
 	public static void main (String [] args){
