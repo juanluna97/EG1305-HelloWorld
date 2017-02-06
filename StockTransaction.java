@@ -2,11 +2,15 @@
 //Object-Oriented Programming
 //Assignment 1 - StockTransaction
 //27 January 2017
+
 import java.text.DecimalFormat;
+
 public class StockTransaction {
+	
 	public static void main(String[]args)
 	{
 		DecimalFormat df = new DecimalFormat ("0.00");
+		
 		double MoneyPaid = 1000 * 32.87;
 		final double COMISSION_RATE = 0.02;
 		double MoneyReceived = 1000 * 33.92;
