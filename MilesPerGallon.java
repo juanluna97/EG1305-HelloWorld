@@ -11,25 +11,25 @@ public class MilesPerGallon {
 	
 	public static void main (String [] args){
 		
-		Scanner input = new Scanner(System.in);
+	Scanner input = new Scanner(System.in);
 		
-		try{
+	try{
 			
-		//Asking for the information and storing it
-		System.out.print("Enter the miles driven: ");
-		double miles = input.nextDouble();
+	//Asking for the information and storing it
+	System.out.print("Enter the miles driven: ");
+	double miles = input.nextDouble();
 			
-		System.out.print("Enter the gallons of fuels used: ");
-		double gallons = input.nextDouble();
+	System.out.print("Enter the gallons of fuels used: ");
+	double gallons = input.nextDouble();
 			
-		//The calculations are done here
-		double MilesPerGas = miles / gallons;	
+	//The calculations are done here
+	double MilesPerGas = miles / gallons;	
 			
-		//Printing results
-		System.out.print("The miles-per-gallon is " + MilesPerGas);}
+	//Printing results
+	System.out.print("The miles-per-gallon is " + MilesPerGas);}
 		
-		//Closing the scanner function
-		finally{
-		input.close();}
+	//Closing the scanner function
+	finally{
+	input.close();}
 	}
 }
