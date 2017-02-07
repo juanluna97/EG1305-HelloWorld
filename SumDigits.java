@@ -21,8 +21,9 @@ public class SumDigits{
 		//Calcuations are done here
 		int ones = num % 10;
 		int tens = (num / 10) % 10 ;
-		int houndreds = (num / 100) % 10;
-    		int answer = ones + tens + houndreds;
+		int hundreds = (num / 100) % 10;
+		int thousands = (num / 1000) %10;
+    		int answer = ones + tens + hundreds + thousands;
     		
 		//Printing results
     		System.out.print(" The sum of the digit is " + answer);}
