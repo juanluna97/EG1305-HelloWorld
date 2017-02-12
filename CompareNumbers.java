@@ -52,8 +52,8 @@ public class CompareNumbers
 			}
 			//Performs a series of calculations
 			System.out.println("Sum is " + (a + b + c));
-			System.out.println("Product is " + (a*b*c));
-			System.out.println("The average is " + (a+b+c)/3);
+			System.out.println("Product is " + (a * b * c));
+			System.out.println("The average is " + (a + b + c) / 3);
 		}
 		finally
 		{
