@@ -27,7 +27,7 @@ public class CountMoney {
 		int dollars = (num - cents) / 100;
 		int quarters = cents / 25;
 		int dimes = (cents - (25*quarters)) / 10;
-		int nickels = (cents - ((25*quarters)+(10*dimes))) / 5;
+		int nickels = (cents - ((25*quarters)+(10*dimes))) / 5; //Use spaces between operators 25 * quarters
 		int pennies = (cents - ((25*quarters)+(10*dimes)+(5*nickels)));
 		
 		//Printing results
