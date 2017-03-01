@@ -1,7 +1,7 @@
 //Juan Luna
 //Objected-Oriented Programming
 //Assignment #3 - DaysInMonth
-//10 February 2017
+//28 February 2017
 /* The purpose of this code is make the user guess a number between 1 - 100. This 
  * is done by performing a series of if within a loop.*/
 import java.util.Random;
