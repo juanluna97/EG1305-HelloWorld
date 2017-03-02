@@ -15,7 +15,7 @@ public class Prime
         System.out.println("Enter a number:");
         int UserNumber = input.nextInt();
          
-        for(int i=1; i < UserNumber; i++)
+        for(int i=3; i < UserNumber; i++)
         {
                  
         	boolean isPrime = true;
