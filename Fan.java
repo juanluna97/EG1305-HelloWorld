@@ -1,4 +1,3 @@
-
 public class Fan {
 	boolean fanStatus = false;
 	int fanSpeed;
