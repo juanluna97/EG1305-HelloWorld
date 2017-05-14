@@ -1,6 +1,5 @@
 import java.util.*;
 public class Array {
-
 	public static void main(String [] args){
 		Scanner input = new Scanner(System.in);
 		System.out.println("This program will find the highest, "
